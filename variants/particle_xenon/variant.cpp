@@ -34,7 +34,7 @@ const uint32_t g_ADigitalPinMap[] =
   _PINNUM(1, 8),    // P1.08 (UART2_TX) (SPI1_MISO) (PWM1)
   _PINNUM(1, 10),   // P1.10 (UART2_RX) (PWM1)
   _PINNUM(1, 11),   // P1.11 (UART2_CTS) (PWM1)
-  _PINNUM(1, 12),   // P1.12 (PWM0)
+  _PINNUM(1, 12),   // P1.12 (LED_BUILTIN) (PWM0)
   _PINNUM(1, 03),   // P1.03 (UART2_RTS)
 
   // D9 .. D21
@@ -76,8 +76,8 @@ const uint32_t g_ADigitalPinMap[] =
   _PINNUM(0, 29),   // P0.29 (A3)
   _PINNUM(0, 30),   // P0.30 (A4)
   _PINNUM(0, 31),   // P0.31 (A5)
-  _PINNUM(0, 5),   // P0.05 (BAT_DET/VBAT)
-  _PINNUM(0, 2),   // P0.02 (AREF)
+  _PINNUM(0, 5),    // P0.05 (BAT_DET/VBAT)
+  _PINNUM(0, 2),    // P0.02 (AREF)
 
   // D37 .. D38
   // Power status
